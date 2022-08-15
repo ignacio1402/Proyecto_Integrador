@@ -1,0 +1,96 @@
+.row{
+    padding: 10px;
+    margin: 0px -10px;
+}
+
+div{   
+    background-color: #a1b5cb;
+    text-align: center;
+}
+
+/*FOTO PERFIL*/
+
+@media (min-width: 576px){ /*a partir de los 576px*/
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 5%;
+        top: 1000px;
+    }
+}
+
+@media (max-width: 575px){ /*de 0 hasta 575px */
+    #fotoPerfil{
+    position: absolute;
+    width: 19%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left: 38%;
+    /*top: 1282px; width: 20px;*/
+    top: 1338px;
+    }
+}
+
+
+@media (min-width: 1024px){
+    #fotoPerfil{
+    position: absolute;
+    width: 10%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left: 5%;
+    top: 962px;
+    }
+}
+
+
+@media (max-width: 320px){
+    #fotoPerfil{
+    position: absolute;
+    width: 30%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left: 35%;
+    top: 1290px;
+    }
+}
+
+@media (max-width: 375px){
+    #fotoPerfil{
+    position: absolute;
+    width: 30%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left: 35%;
+    top: 1270px;
+    }
+}
+
+@media (max-width: 425px){
+    #fotoPerfil{
+    position: absolute;
+    width: 30%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left: 35%;
+    top: 1250px;
+    }
+}
+
+@media (max-width: 768px){
+    #fotoPerfil{
+    position: absolute;
+    width: 25%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left: 4%;
+    top: 960px;
+    }
+}
+/*NOMBRE*/
+#nombre{
+    font-weight: bold;
+    margin-top: 0%;
+}
